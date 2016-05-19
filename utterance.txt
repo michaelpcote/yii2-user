@@ -1,0 +1,25 @@
+ContactIntent get contact info
+ContactIntent get contact number
+ContactIntent get contact
+ContactIntent ask contact info
+ContactIntent ask contact number
+ContactIntent ask contact
+GetStockQuote get stock quote {tickerSymbol}
+AMAZON.StopIntent exit
+
+{
+  "intents": [
+    {
+      "intent": "ContactIntent"
+    },
+    {
+      "intent": "GetStockQuote"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    },
+    {
+      "intent": "AMAZON.HelpIntent"
+    }
+  ]
+}
